@@ -1,0 +1,660 @@
+body{
+  padding: 12px;
+  background-color: lightblue;
+}
+*{box-sizing: border-box;}
+
+
+.fig{
+  margin-left: 30%;
+}
+.home{
+  margin-left: 280px;
+  padding-top: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+
+/*  modal window */
+.linkmodalA{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalA img{
+  width: 32%;
+}
+.modalwindowA{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowA:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalB{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalB img{
+  width: 32%;
+}
+.modalwindowB{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowB:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalC{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalC img{
+  width: 32%;
+}
+.modalwindowC{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowC:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalD{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalD img{
+  width: 32%;
+}
+.modalwindowD{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowD:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalE{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalE img{
+  width: 32%;
+}
+.modalwindowE{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowE:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalF{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalF img{
+  width: 32%;
+}
+.modalwindowF{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowF:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalG{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalG img{
+  width: 32%;
+}
+.modalwindowG{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowG:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalH{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalH img{
+  width: 32%;
+}
+.modalwindowH{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowH:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalI{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalI img{
+  width: 32%;
+}
+.modalwindowI{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowI:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalJ{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalJ img{
+  width: 32%;
+}
+.modalwindowJ{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowJ:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalK{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalK img{
+  width: 32%;
+}
+.modalwindowK{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowK:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalL{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalL img{
+  width: 32%;
+}
+.modalwindowL{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowL:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalM{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalM img{
+  width: 32%;
+}
+.modalwindowM{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowM:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalN{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalN img{
+  width: 32%;
+}
+.modalwindowN{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowN:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalO{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalO img{
+  width: 32%;
+}
+.modalwindowO{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowO:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalP{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalP img{
+  width: 32%;
+}
+.modalwindowP{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowP:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalQ{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalQ img{
+  width: 32%;
+}
+.modalwindowQ{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowQ:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalR{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalR img{
+  width: 32%;
+}
+.modalwindowR{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowR:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+
+.linkmodalS{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalS img{
+  width: 32%;
+}
+.modalwindowS{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowS:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalT{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalT img{
+  width: 32%;
+}
+.modalwindowT{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowT:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalU{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalU img{
+  width: 32%;
+}
+.modalwindowU{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowU:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalV{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalV img{
+  width: 32%;
+}
+.modalwindowV{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowV:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalW{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalW img{
+  width: 32%;
+}
+.modalwindowW{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowW:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalX{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalX img{
+  width: 32%;
+}
+.modalwindowX{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowX:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalY{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalY img{
+  width: 32%;
+}
+.modalwindowY{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowY:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.linkmodalZ{
+  text-decoration: none;
+  color: lightblue;
+}
+.linkmodalZ img{
+  width: 32%;
+}
+.modalwindowZ{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(143, 188, 143, 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalwindowZ:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in .5s;
+}
+
+.msgtext{
+background:  linear-gradient(rgb(255, 153, 204),rgb(153, 255, 153));
+  width: 80%;
+  height: 70%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.msgtext{
+  width: 100%;
+  padding: 20px;
+  background-color: darkgreen;
+  color: purple;
+}
+.modal-closeX{
+  text-decoration: none;
+  color: black;
+  margin-top: 2%;
+  padding-left: 250px;
+}
+
+.msgtext img{
+  width: 60%;
+  height: 40%;
+  margin-left: 22%;
+  margin-bottom: 8%;
+}
+
+.msgtext h2.Tyeshi{
+  color: red;
+}
+.msgtext h2{
+  color: blue;
+}
+.msgtext h4.tyeshi1{
+  color: blue;
+}
+.msgtext strong{
+color: coral;
+}
+/* end of modal window 4*/

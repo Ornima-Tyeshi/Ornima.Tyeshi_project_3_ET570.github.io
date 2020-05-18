@@ -1,0 +1,208 @@
+body{
+  padding: 12px;
+  background-color: lavenderblush;
+}
+.colorfarm{
+  color: green;
+}
+.fun{
+  color: dodgerblue;
+}
+*{box-sizing: border-box;}
+.herologo{
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+}
+/* slideshow*/
+.slideshow{
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+.slideshow img{
+  height: 100px;
+  width: 100%;
+}
+.slide1{
+  float: left;
+  height: 100%;
+  width: 25%; // 100/4= 25
+}
+.slide-wrapper{
+  width: 400%; // 4 images
+  height: 50%;
+  text-align: center;
+  animation: slideshow4 12s infinite;
+}
+@keyframes slideshow4 {
+  0%{margin-left: 0%;}
+  20%{margin-left: 0%;}
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+  75%{margin-left: -300%;}
+  95%{margin-left: -300%;} //never end the backward @ effect 100%
+}
+/* end of slideshow*/
+
+
+/* container*/
+.folder{
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+}
+.mini-folder1{
+  width: 40%;
+  height: 170px;
+  border: solid orange;
+  border-radius: 15px;
+  background-color: orange;
+}
+.mini-folder1 img{
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0px 0px;
+}
+.mini-folder1 h3{
+text-align: center;
+margin-top: 7%;
+height: 20px;
+width: 100%;
+}
+.mini-foldertext{
+  width: 100%;
+  height: 45px;
+  margin-top: -4px;
+}
+.mini-folder2{
+  width: 40%;
+  height: 170px;
+  margin-left: 52%;
+  margin-top: -53%;
+  border: solid skyblue;
+  border-radius: 15px;
+  background-color: skyblue;
+}
+.mini-folder2 img{
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0px 0px;
+}
+.mini-folder2 h3{
+text-align: center;
+margin-top: 7%;
+height: 20px;
+width: 100%;
+}
+.mini-foldertext2{
+  width: 100%;
+  height: 45px;
+  margin-top: -4px;
+}
+.mini-folder1, .mini-folder2{
+  float: left;
+  width: 48%;
+}
+
+
+.folder2{
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+}
+.mini-folder3{
+  width: 48%;
+  height: 170px;
+  border: solid hotpink;
+  border-radius: 15px;
+  background-color: hotpink;
+}
+.mini-folder3 img{
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0px 0px;
+}
+.mini-folder3 h3{
+text-align: center;
+margin-top: 7%;
+height: 20px;
+width: 100%;
+}
+.mini-foldertext3{
+  width: 100%;
+  height: 45px;
+  margin-top: -4px;
+}
+.mini-folder4{
+  width: 40%;
+  height: 170px;
+  margin-left: 52%;
+  margin-top: -53%;
+  border: solid lightgreen;
+  border-radius: 15px;
+  background-color: lightgreen;
+}
+.mini-folder4 img{
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0px 0px;
+}
+.mini-folder4 h3{
+text-align: center;
+margin-top: 7%;
+height: 20px;
+width: 100%;
+}
+.mini-foldertext4{
+  width: 100%;
+  height: 45px;
+  margin-top: -4px;
+}
+.mini-folder3, .mini-folder4{
+  float: left;
+  width: 48%;
+}
+.farmyard{
+  width: 100%;
+  height: 20%;
+}
+/* contact*/
+.place5{
+  width: 80%;
+  height: 35%;
+  padding-left: 10px;
+}
+.place6{
+  width: 80%;
+  height: 35%;
+  padding-left: 5px;
+}
+.logo{
+  width: 15%;
+  height: 35%;
+  padding-left: 5px;
+  padding-top: 3px;
+}
+.Follow{
+  color: green;
+}
+.place5, .logo{
+  float: left;
+}
+.place6, .logo{
+  float: left;
+}
+.title{
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 5px 5px 10px #7a5cd6;
+  background-color: #D2B48C;
+  text-align: center;
+  color: darkblue;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+/* end of  contact*/
