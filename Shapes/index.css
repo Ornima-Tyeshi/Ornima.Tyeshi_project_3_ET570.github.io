@@ -1,0 +1,325 @@
+body{
+  padding: 12px;
+}
+*{box-sizing: border-box;}
+.home{
+  margin-left: 280px;
+  padding-top: 5px;
+  height: 70px;
+  width: 70px;
+}
+img{
+  width: 100%;
+  height: 50%;
+}
+figcaption h2{
+  color: darkgreen;
+}
+.stars{
+  width: 100%;
+  height: 100%;
+}
+.star{
+  width: 30%;
+  height: 80%;
+  font-size: 2.7em;
+  font-weight: 400;
+  padding-top: 25px;
+  color: coral;
+}
+.star1{
+  width: 10%;
+  height: 10%;
+ padding-top: 10px;
+}
+.star2{
+  width: 40%;
+  height: 100%;
+  padding-top: 5px;
+  margin-top: 2px;
+  margin-left: 25px;
+  animation: spin 20s 50 linear forwards;
+}
+@keyframes spin{
+  0% {transform: rotate(0deg);}
+  25%{transform: rotate(180deg);}
+  50% {transform: rotate(-360deg);}
+  75% {transform: rotate(60deg);}
+  100%{transform: rotate(-100deg);}
+}
+.star, .star1, .star2{
+  float: left;
+  width: 30%;
+}
+
+.hearts{
+  width: 100%;
+  height: 100%;
+}
+.heart{
+  width: 30%;
+  height: 80%;
+  font-size: 2.3em;
+  font-weight: 400;
+  color: coral;
+  margin-top: 45px;
+  margin-right: 90px;
+}
+.heart1{
+  width: 10%;
+  height: 10%;
+ margin-left: -85px;
+ margin-top: 25px;
+}
+.heart2{
+  width: 40%;
+  height: 100%;
+  margin-top: -95px;
+  margin-left: 220px;
+  animation: zoomanimation 8s linear alternate 50;
+}
+@keyframes zoomanimation{
+  0%{transform: scale(0); top: 50px; left: 50px;}
+  50%{transform: scale(1); top: 0px; left: 300px;}
+  100%{transform: scale(0); top: 200px; left: 30px;}
+}
+.heart, .heart1, .heart2{
+  float: left;
+  width: 30%;
+}
+
+
+.rectangles{
+  width: 100%;
+  height: 100%;
+}
+.rectangle{
+  width: 30%;
+  height: 80%;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-top: 25px;
+  margin-top: 30px;
+  color: coral;
+}
+.rectangle1{
+  width: 10%;
+  height: 10%;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.rectanglec{
+  width: 50%;
+}
+.rectangle2{
+  width: 30%;
+  height: 100%;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-left: 25px;
+  animation: spin1 25s 50 linear forwards;
+}
+@keyframes spin1{
+  0% {transform: rotate(0deg);}
+  25%{transform: rotate(180deg);}
+  50% {transform: rotate(-360deg);}
+  75% {transform: rotate(60deg);}
+  100%{transform: rotate(-100deg);}
+}
+.rectangle, .rectangle1, .rectangle2{
+  float: left;
+  width: 30%;
+}
+
+
+.circles{
+  width: 100%;
+  height: 100%;
+}
+.circle{
+  width: 30%;
+  height: 80%;
+  font-size: 2.6em;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-right: 90px;
+  color: coral;
+}
+.circle1{
+  width: 10%;
+  height: 10%;
+  margin-top:-70px;
+  margin-left: 100px;
+}
+
+.circle2{
+  width: 30%;
+  height: 100%;
+  padding-top: 5px;
+  margin-top: -70px;
+  margin-left: 20px;
+  animation: spin3 25s 50 linear forwards;
+}
+.ovalc{
+  width: 60%;
+  height: 20%;
+}
+@keyframes spin3{
+  0% {transform: rotate(0deg);}
+  25%{transform: rotate(180deg);}
+  50% {transform: rotate(-360deg);}
+  75% {transform: rotate(60deg);}
+  100%{transform: rotate(-100deg);}
+}
+.circle, .circle1, .circle2{
+  float: left;
+  width: 30%;
+}
+
+.rhombuss{
+  width: 100%;
+  height: 100%;
+}
+.rhombus{
+  width: 30%;
+  height: 80%;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-top: 70px;
+  color: coral;
+}
+.rhombus1{
+  width: 10%;
+  height: 10%;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+.rhombus2{
+  width: 40%;
+  height: 100%;
+  margin-top: -120px;
+  margin-left: 210px;
+  animation: zoomanimation1 10s linear alternate 50;
+}
+@keyframes zoomanimation1{
+  0%{transform: scale(0); top: 50px; left: 50px;}
+  50%{transform: scale(1); top: 0px; left: 300px;}
+  100%{transform: scale(0); top: 200px; left: 30px;}
+}
+.rhombus, .rhombus1, .rhombus2{
+  float: left;
+  width: 30%;
+}
+
+
+.traingles{
+  width: 100%;
+  height: 100%;
+}
+.triangle{
+  width: 30%;
+  height: 80%;
+  font-size: 1.7em;
+  font-weight: 400;
+  padding-top: 65px;
+  color: coral;
+}
+.triangle1{
+  width: 10%;
+  height: 10%;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+.triangle2{
+  width: 40%;
+  height: 100%;
+  margin-top: -100px;
+  margin-left: 210px;
+  animation: spin1 25s 50 linear forwards;
+}
+@keyframes spin1{
+  0% {transform: rotate(0deg);}
+  25%{transform: rotate(180deg);}
+  50% {transform: rotate(-360deg);}
+  75% {transform: rotate(60deg);}
+  100%{transform: rotate(-100deg);}
+}
+.triangle, .triangle1, .triangle2{
+  float: left;
+  width: 30%;
+}
+
+
+.ovals{
+  width: 100%;
+  height: 100%;
+}
+.oval{
+  width: 30%;
+  height: 80%;
+  font-size: 3em;
+  font-weight: 400;
+  padding-top: 50px;
+  color: coral;
+}
+.oval1{
+  width: 10%;
+  height: 10%;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+.oval2{
+  width: 40%;
+  height: 100%;
+  margin-top: -100px;
+  margin-left: 230px;
+  animation: spin1 25s 50 linear forwards;
+}
+@keyframes spin1{
+  0% {transform: rotate(0deg);}
+  25%{transform: rotate(180deg);}
+  50% {transform: rotate(-360deg);}
+  75% {transform: rotate(60deg);}
+  100%{transform: rotate(-100deg);}
+}
+.oval, .oval1, .oval2{
+  float: left;
+  width: 30%;
+}
+
+.squares{
+  width: 100%;
+  height: 100%;
+}
+.square{
+  width: 30%;
+  height: 80%;
+  font-size: 2em;
+  font-weight: 400;
+  color: coral;
+  margin-top: 45px;
+  margin-right: 90px;
+}
+.square1{
+  width: 10%;
+  height: 10%;
+ margin-left: -85px;
+ margin-top: 25px;
+}
+.square2{
+  width: 40%;
+  height: 100%;
+  margin-top: -105px;
+  margin-left: 220px;
+  animation: zoomanimation4 10s linear alternate 50;
+}
+@keyframes zoomanimation4{
+  0%{transform: scale(0); top: 50px; left: 50px;}
+  50%{transform: scale(1); top: 0px; left: 300px;}
+  100%{transform: scale(0); top: 200px; left: 30px;}
+}
+.square, .square1, .square2{
+  float: left;
+  width: 30%;
+}
